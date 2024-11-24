@@ -178,10 +178,10 @@ const SplashT = [
   "Subscribe to InkBoyM's Youtube (@Inkboym)! He hosts this website.",
   "Check out the settings page",
   "Never gonna give you up! Gotcha!",
-  "When you search up "Worst song" on Youtube, you get Thick of It on top under shorts/ads.",
+  "When you search up ''Worst song'' on Youtube, you get Thick of It on top under shorts/ads.",
 ];
 
-let SplashI = Math.floor(Math.random() * SplashT.length);
+let SplashI = Math.floor(3 * SplashT.length);
 const SplashE = document.getElementById("splash");
 
 function US() {
